@@ -5,6 +5,7 @@ import Counter from "./components/Counter";
 import Calendar from "./components/Calendar";
 import Timer from "./components/Timer";
 import TrackMouse from "./components/TrackMouse";
+import ReactForm from "./components/Form";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Calendar />
       <Timer />
       <TrackMouse />
+      <ReactForm />
     </>
   );
 }

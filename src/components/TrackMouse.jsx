@@ -5,6 +5,7 @@ import "./TrackMouse.css";
 
 export default function TrackMouse() {
   const [mousePosition, setMousePosition] = useState([]);
+  const [trackerOn, setTrackerOn] = useState(false);
 
   useEffect(() => {
     const setPosition = (e) => {
@@ -18,14 +19,22 @@ export default function TrackMouse() {
 
   return (
     <div>
-      Track mouse: Mouse position: {mousePosition.toString()}{" "}
-      <div
-        className="cursor"
-        style={{
-          left: `${mousePosition[0]}px`,
-          right: `${mousePosition[1]}px`,
-        }}
-      />
+      Track mouse:
+      <button onClick={() => setTrackerOn(!trackerOn)}>
+        Turn {trackerOn ? "Off" : "On"} mouse tracker
+      </button>
+      {trackerOn && (
+        <div className="container">
+          {mousePosition.toString()}
+          <div
+            className="cursor"
+            style={{
+              left: `${mousePosition[0]}px`,
+              top: `${mousePosition[1]}px`,
+            }}
+          />
+        </div>
+      )}
     </div>
   );
 }
