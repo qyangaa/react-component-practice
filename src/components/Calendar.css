@@ -1,0 +1,7 @@
+td.calendar-day {
+  cursor: pointer;
+}
+
+.calendar-day.selected {
+  background: gray;
+}
