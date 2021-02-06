@@ -1,3 +1,12 @@
+# Small practices on implementing individual components with React.js
+
+Components available:
+Navbar;
+Tab;
+Counter,
+Calendar;
+Timer;
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

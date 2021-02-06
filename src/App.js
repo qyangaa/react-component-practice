@@ -4,6 +4,7 @@ import Tab_React from "./components/Tab_React";
 import Counter from "./components/Counter";
 import Calendar from "./components/Calendar";
 import Timer from "./components/Timer";
+import TrackMouse from "./components/TrackMouse";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Counter />
       <Calendar />
       <Timer />
+      <TrackMouse />
     </>
   );
 }
