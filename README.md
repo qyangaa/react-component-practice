@@ -6,6 +6,14 @@ Tab;
 Counter,
 Calendar;
 Timer;
+TrackMouse;
+Form;
+SlideShow;
+SortTable;
+
+TODO:
+Routing;
+API call;
 
 # Getting Started with Create React App
 

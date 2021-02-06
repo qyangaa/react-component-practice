@@ -6,6 +6,8 @@ import Calendar from "./components/Calendar";
 import Timer from "./components/Timer";
 import TrackMouse from "./components/TrackMouse";
 import ReactForm from "./components/Form";
+import SlideShow from "./components/SlideShow";
+import SortTable from "./components/SortTable";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <Timer />
       <TrackMouse />
       <ReactForm />
+      <SlideShow />
+      <SortTable />
     </>
   );
 }
