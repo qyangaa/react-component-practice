@@ -1,0 +1,9 @@
+h2 {
+  background: #00000046;
+  color: #ffffff;
+  text-align: center;
+  font-size: smaller;
+  border-radius: 20px;
+  padding: 5px;
+  display: block;
+}

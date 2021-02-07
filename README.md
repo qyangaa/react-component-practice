@@ -10,10 +10,14 @@ TrackMouse;
 Form;
 SlideShow;
 SortTable;
+Pagination;
+Routing;
 
 TODO:
-Routing;
+
+Markdown Previewer;
 API call;
+Redux
 
 # Getting Started with Create React App
 
