@@ -10,32 +10,35 @@ import SlideShow from "./components/SlideShow";
 import SortTable from "./components/SortTable";
 import TablePagination from "./components/Pagination";
 import Routing from "./components/Routing";
+import MarkdownPreviewer from "./components/MarkdownPreviewer";
 
 function App() {
   return (
     <>
-      <h2>Navbar</h2>
+      <h2 className="section-header">Navbar</h2>
       <Navbar />
-      <h2>Tab</h2>
+      <h2 className="section-header">Tab</h2>
       <Tab_React />
-      <h2>Counter</h2>
+      <h2 className="section-header">Counter</h2>
       <Counter />
-      <h2>Calendar</h2>
+      <h2 className="section-header">Calendar</h2>
       <Calendar />
-      <h2>Timer</h2>
+      <h2 className="section-header">Timer</h2>
       <Timer />
-      <h2>Track Mouse</h2>
+      <h2 className="section-header">Track Mouse</h2>
       <TrackMouse />
-      <h2>React Form</h2>
+      <h2 className="section-header">React Form</h2>
       <ReactForm />
-      <h2>Slide Show</h2>
+      <h2 className="section-header">Slide Show</h2>
       <SlideShow />
-      <h2>Sort Table</h2>
+      <h2 className="section-header">Sort Table</h2>
       <SortTable />
-      <h2>Pagination</h2>
+      <h2 className="section-header">Pagination</h2>
       <TablePagination />
-      <h2>Routing</h2>
+      <h2 className="section-header">Routing</h2>
       <Routing />
+      <h2 className="section-header">Markdown Previewer</h2>
+      <MarkdownPreviewer />
     </>
   );
 }

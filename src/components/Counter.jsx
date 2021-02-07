@@ -8,8 +8,14 @@ export default function Counter() {
     <div>
       <p>
         Current count is: {count}
-        <Button onClick={() => setCount(count + 1)}> Increase </Button>
-        <Button onClick={() => setCount(count - 1)}> Decrease </Button>
+        <Button onClick={() => setCount((count) => count + 1)}>
+          {" "}
+          Increase{" "}
+        </Button>
+        <Button onClick={() => setCount((count) => count - 1)}>
+          {" "}
+          Decrease{" "}
+        </Button>
       </p>
     </div>
   );

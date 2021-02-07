@@ -1,8 +1,8 @@
-h2 {
+h2.section-header {
   background: #00000046;
   color: #ffffff;
   text-align: center;
-  font-size: smaller;
+  font-size: medium;
   border-radius: 20px;
   padding: 5px;
   display: block;

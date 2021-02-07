@@ -12,10 +12,10 @@ SlideShow;
 SortTable;
 Pagination;
 Routing;
+Markdown Previewer;
 
 TODO:
 
-Markdown Previewer;
 API call;
 Redux
 
