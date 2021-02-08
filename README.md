@@ -1,27 +1,28 @@
 # Small practices on implementing individual components with React.js
 
 Components available:
-Navbar;
-Tab;
-Counter,
-Calendar;
-Timer;
-TrackMouse;
-Form;
-SlideShow;
-SortTable;
-Pagination;
-Routing;
-Markdown Previewer;
-API call;
-Cache/ local storage;
-Image Upload;
+
+- Navbar;
+- Tab;
+- Counter,
+- Calendar;
+- Timer;
+- TrackMouse;
+- Form;
+- SlideShow;
+- SortTable;
+- Pagination;
+- Routing;
+- Markdown Previewer;
+- API call;
+- Cache/ local storage;
+- Image Upload;
+- React Charts;
 
 TODO:
 
-Plot graph
-Redux;
-dom manipulation;
+- Redux;
+- dom manipulation;
 
 # Getting Started with Create React App
 

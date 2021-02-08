@@ -14,6 +14,7 @@ import MarkdownPreviewer from "./components/MarkdownPreviewer";
 import APIcall from "./components/APIcall";
 import Cache from "./components/Cache";
 import ImageUpload from "./components/ImageUpload";
+import ReactCharts from "./components/ReactCharts";
 
 function App() {
   return (
@@ -48,6 +49,8 @@ function App() {
       <Cache />
       <h2 className="section-header">Image Upload</h2>
       <ImageUpload />
+      <h2 className="section-header">React Charts</h2>
+      <ReactCharts />
     </>
   );
 }
