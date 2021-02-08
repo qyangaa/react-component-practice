@@ -59,9 +59,7 @@ export default function MarkdownPreviewer() {
 
   return (
     <div>
-      <button onClick={() => console.log(mdInput.toString())}>
-        Console log
-      </button>
+      <p>Current version only supports headers and bold style</p>
       <div className="row">
         <div className="col-md-6">
           <textarea

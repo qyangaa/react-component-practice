@@ -11,6 +11,7 @@ import SortTable from "./components/SortTable";
 import TablePagination from "./components/Pagination";
 import Routing from "./components/Routing";
 import MarkdownPreviewer from "./components/MarkdownPreviewer";
+import APIcall from "./components/APIcall";
 
 function App() {
   return (
@@ -39,6 +40,8 @@ function App() {
       <Routing />
       <h2 className="section-header">Markdown Previewer</h2>
       <MarkdownPreviewer />
+      <h2 className="section-header">API Call</h2>
+      <APIcall />
     </>
   );
 }

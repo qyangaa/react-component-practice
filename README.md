@@ -13,11 +13,12 @@ SortTable;
 Pagination;
 Routing;
 Markdown Previewer;
+API call;
 
 TODO:
 
-API call;
-Redux
+Redux;
+dom manipulation;
 
 # Getting Started with Create React App
 
