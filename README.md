@@ -15,9 +15,11 @@ Routing;
 Markdown Previewer;
 API call;
 Cache/ local storage;
+Image Upload;
 
 TODO:
 
+Plot graph
 Redux;
 dom manipulation;
 

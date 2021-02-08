@@ -13,6 +13,7 @@ import Routing from "./components/Routing";
 import MarkdownPreviewer from "./components/MarkdownPreviewer";
 import APIcall from "./components/APIcall";
 import Cache from "./components/Cache";
+import ImageUpload from "./components/ImageUpload";
 
 function App() {
   return (
@@ -45,6 +46,8 @@ function App() {
       <APIcall />
       <h2 className="section-header">Cache</h2>
       <Cache />
+      <h2 className="section-header">Image Upload</h2>
+      <ImageUpload />
     </>
   );
 }

@@ -29,7 +29,7 @@ export default function Cache() {
     <div>
       <form action="search" onSubmit={onSearch}>
         <input type="text" onChange={(e) => setQuery(e)} />
-        <button type="submit">Submit</button>
+        <button type="submit">Search from hn.algolia.com</button>
       </form>
       <button onClick={() => setHits([])}>Clear</button>
       {hits.map((item) => (
