@@ -14,6 +14,7 @@ Pagination;
 Routing;
 Markdown Previewer;
 API call;
+Cache/ local storage;
 
 TODO:
 
