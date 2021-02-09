@@ -16,6 +16,7 @@ import Cache from "./components/Cache";
 import ImageUpload from "./components/ImageUpload";
 import ReactCharts from "./components/ReactCharts";
 import ReduxTodoList from "./components/ReduxTodoList";
+import BasicAnimation from "./components/BasicAnimation";
 
 // Redux imports
 import { Provider } from "react-redux";
@@ -62,6 +63,8 @@ function App() {
       <Provider store={store}>
         <ReduxTodoList />
       </Provider>
+      <h2 className="section-header">Basic Animation</h2>
+      <BasicAnimation />
     </>
   );
 }

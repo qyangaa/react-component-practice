@@ -19,6 +19,7 @@ Components available:
 - Image Upload;
 - React Charts;
 - Redux todo list;
+- Basic Animation;
 
 TODO:
 
@@ -26,7 +27,6 @@ TODO:
   (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet)
 - Calculator
 
-- dom manipulation;
 - Positioning
 
 # Getting Started with Create React App
