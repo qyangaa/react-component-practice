@@ -18,11 +18,16 @@ Components available:
 - Cache/ local storage;
 - Image Upload;
 - React Charts;
+- Redux todo list;
 
 TODO:
 
-- Redux;
+- Regular expression
+  (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet)
+- Calculator
+
 - dom manipulation;
+- Positioning
 
 # Getting Started with Create React App
 

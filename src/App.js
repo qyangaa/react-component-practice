@@ -15,6 +15,13 @@ import APIcall from "./components/APIcall";
 import Cache from "./components/Cache";
 import ImageUpload from "./components/ImageUpload";
 import ReactCharts from "./components/ReactCharts";
+import ReduxTodoList from "./components/ReduxTodoList";
+
+// Redux imports
+import { Provider } from "react-redux";
+import ConfigureStore from "./redux/configureStore";
+
+const store = ConfigureStore();
 
 function App() {
   return (
@@ -51,6 +58,10 @@ function App() {
       <ImageUpload />
       <h2 className="section-header">React Charts</h2>
       <ReactCharts />
+      <h2 className="section-header">Redux Todo List</h2>
+      <Provider store={store}>
+        <ReduxTodoList />
+      </Provider>
     </>
   );
 }
