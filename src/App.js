@@ -19,6 +19,7 @@ import ReduxTodoList from "./components/ReduxTodoList";
 import BasicAnimation from "./components/BasicAnimation";
 import Calculator from "./components/Calculator";
 import Positioning from "./components/Positioning";
+import Flexbox from "./components/Flexbox";
 
 // Redux imports
 import { Provider } from "react-redux";
@@ -71,6 +72,8 @@ function App() {
       <Calculator />
       <h2 className="section-header">Positioning</h2>
       <Positioning />
+      <h2 className="section-header">Flexbox</h2>
+      <Flexbox />
     </>
   );
 }
