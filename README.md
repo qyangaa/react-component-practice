@@ -20,12 +20,12 @@ Components available:
 - React Charts;
 - Redux todo list;
 - Basic Animation;
+- Calculator: useReducer hook;
 
 TODO:
 
 - Regular expression
   (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet)
-- Calculator
 
 - Positioning
 
