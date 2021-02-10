@@ -18,6 +18,7 @@ import ReactCharts from "./components/ReactCharts";
 import ReduxTodoList from "./components/ReduxTodoList";
 import BasicAnimation from "./components/BasicAnimation";
 import Calculator from "./components/Calculator";
+import Positioning from "./components/Positioning";
 
 // Redux imports
 import { Provider } from "react-redux";
@@ -68,6 +69,8 @@ function App() {
       <BasicAnimation />
       <h2 className="section-header">Calculator</h2>
       <Calculator />
+      <h2 className="section-header">Positioning</h2>
+      <Positioning />
     </>
   );
 }
