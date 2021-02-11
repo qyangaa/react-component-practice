@@ -42,11 +42,18 @@ export default function Calculator() {
     }
   };
 
-  const getResult = () => {
-    if (!operand) return;
+  const getResult = (newOperand) => {
+    if (!operand) {
+      setOperand(newOperand);
+      return;
+    }
     dispatch({ type: operand, payload: newNumber.number });
     dispatchNewNumber({ type: "CLEAR" });
-    setOperand("");
+    if (newOperand == "=") {
+      setOperand("");
+    } else {
+      setOperand(newOperand);
+    }
   };
 
   const clear = () => {
@@ -58,8 +65,10 @@ export default function Calculator() {
     <div>
       <>
         <h1>
-          <Button onClick={() => clear()}>c</Button>
-          <Badge variant="secondary">
+          <Button onClick={() => clear()} testData="btn-c">
+            c
+          </Button>
+          <Badge variant="secondary" testData="badge-screen">
             {state.number}
             {operand ? operand : ""}
             {newNumber.number ? newNumber.number : ""}
@@ -67,27 +76,57 @@ export default function Calculator() {
         </h1>
 
         <ButtonGroup className="mb-2">
-          <Button onClick={() => handleNumber(1)}>1</Button>
-          <Button onClick={() => handleNumber(2)}>2</Button>
-          <Button onClick={() => handleNumber(3)}>3</Button>
-          <Button onClick={() => setOperand("+")}>+</Button>
-          <Button onClick={() => setOperand("*")}>*</Button>
+          <Button onClick={() => handleNumber(2)} testData="btn-2">
+            2
+          </Button>
+          <Button onClick={() => handleNumber(1)} testData="btn-1">
+            1
+          </Button>
+          <Button onClick={() => handleNumber(3)} testData="btn-3">
+            3
+          </Button>
+          <Button onClick={() => getResult("+")} testData="btn-+">
+            +
+          </Button>
+          <Button onClick={() => getResult("*")} testData="btn-*">
+            *
+          </Button>
         </ButtonGroup>
         <br />
         <ButtonGroup className="mb-2">
-          <Button onClick={() => handleNumber(4)}>4</Button>
-          <Button onClick={() => handleNumber(5)}>5</Button>
-          <Button onClick={() => handleNumber(6)}>6</Button>
-          <Button onClick={() => setOperand("-")}>-</Button>
-          <Button onClick={() => setOperand("/")}>/</Button>
+          <Button onClick={() => handleNumber(4)} testData="btn-4">
+            4
+          </Button>
+          <Button onClick={() => handleNumber(5)} testData="btn-5">
+            5
+          </Button>
+          <Button onClick={() => handleNumber(6)} testData="btn-6">
+            6
+          </Button>
+          <Button onClick={() => getResult("-")} testData="btn--">
+            -
+          </Button>
+          <Button onClick={() => getResult("/")} testData="btn-/">
+            /
+          </Button>
         </ButtonGroup>
         <br />
         <ButtonGroup size="mb-2">
-          <Button onClick={() => handleNumber(7)}>7</Button>
-          <Button onClick={() => handleNumber(8)}>8</Button>
-          <Button onClick={() => handleNumber(9)}>9</Button>
-          <Button onClick={() => handleNumber(0)}>0</Button>
-          <Button onClick={() => getResult()}>=</Button>
+          <Button onClick={() => handleNumber(7)} testData="btn-7">
+            7
+          </Button>
+          <Button onClick={() => handleNumber(8)} testData="btn-8">
+            8
+          </Button>
+          <Button onClick={() => handleNumber(9)} testData="btn-9">
+            9
+          </Button>
+          <Button onClick={() => handleNumber(0)} testData="btn-0">
+            0
+          </Button>
+          <Button onClick={() => getResult()} testData="btn-=">
+            =
+          </Button>
         </ButtonGroup>
       </>
     </div>
