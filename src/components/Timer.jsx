@@ -6,14 +6,13 @@ export default function Timer() {
 
   useEffect(() => {
     let intervalId;
-
     if (isOn) {
       intervalId = setInterval(() => {
         setTime((time) => time + 1);
       }, 1000);
     }
     return () => clearInterval(intervalId);
-  }, [isOn, time]);
+  }, [isOn]);
 
   const resetTimer = () => {
     setIsOn(false);

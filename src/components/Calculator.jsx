@@ -76,11 +76,11 @@ export default function Calculator() {
         </h1>
 
         <ButtonGroup className="mb-2">
-          <Button onClick={() => handleNumber(2)} testData="btn-2">
-            2
-          </Button>
           <Button onClick={() => handleNumber(1)} testData="btn-1">
             1
+          </Button>
+          <Button onClick={() => handleNumber(2)} testData="btn-2">
+            2
           </Button>
           <Button onClick={() => handleNumber(3)} testData="btn-3">
             3
